@@ -812,6 +812,28 @@
 
 
 
+
+ /*Question 12 */
+// function LongestWord(str) {
+    // document.write("................................Question 12........................"+"<br>"+"<br>")
+//     var strSplit = str.split(' ');
+//     var longestWord = 0
+//     for(var i = 0; i < strSplit.length; i++){
+//         if(strSplit[i].length > longestWord){ 
+//         longestWord = strSplit[i].length; 
+//          }
+//     return longestWord;
+
+//         }
+//     }
+// document.write(LongestWord("Web Development Tutorial"))
+
+
+
+
+
+
+
  /*Question 14 */
 // function CircumferenceOfCircle(a){
 // document.write("................................Question 14........................"+"<br>"+"<br>")
@@ -837,18 +859,6 @@
 
 
 
-function LongestWord(str) {
-    var strSplit = str.split(' ');
-    var longestWord = 0
-    for(var i = 0; i < strSplit.length; i++){
-        if(strSplit[i].length > longestWord){ 
-        longestWord = strSplit[i].length; 
-         }
-    return longestWord;
-
-        }
-    }
-document.write(LongestWord("Web Development Tutorial"))
 
 
 
