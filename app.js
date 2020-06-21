@@ -152,15 +152,17 @@
 // var s = prompt("Enter to search !")
 // var text = "";
 // var i;
+
 // for (i = 0; i < a.length; i++) {
-//   text += a[i] + "<br>";
-// }
-// document.write(text) ;
-// document.write(s)
-// if (text==s){
-//     document.write("yes")
+// text=a[i]
+// if (s===text){
+//     document.write()
+//      var r =a.indexOf(s.toLowerCase())
+//     document.write(s+" is available at index "+r+" in our bakery")
+//     break
 // }else{
 //     document.write("no")
+// }
 // }
 
 
@@ -183,8 +185,9 @@
 
 /*Question  17*/
 // document.write("................................Question 17........................"+"<br>"+"<br>")
-
-
+// var user = "pakistan"
+// var i = user.length-1
+// document.write(user[i])
 
 
 /*Question  18*/
@@ -199,9 +202,16 @@
 // document.write("Text : the quick brown fox jumps over the lazy dog"+ "<br>")
 // document.write("There are "+a+ " occurance(s) of word 'the' ")
 
-// /*............................Assignemnt 26 - 30 ................*/
-// // /*Question 1 */
-// document.write("................................Question 1........................"+"<br>"+"<br>")
+
+
+
+
+
+
+
+
+/*Question 8 */
+// document.write("................................Question 8........................"+"<br>"+"<br>")
 // var integ = prompt( "Enter a positive integer !")
 // var round = Math.round(integ);
 // var flor =Math.floor(integ);
@@ -256,6 +266,40 @@
 
 // /*Question 5 */
 // document.write("................................Question 5........................"+"<br>"+"<br>")
+// var r = Math.random(2)*2
+// var toss=Math.round(r)
+//  if (toss===2){
+//      document.write("Random coin value : Heads")
+//  }
+//  else if(toss===0){
+//      toss+1
+//     document.write("Random coin value : Tails")
+//     }else{
+     
+//     document.write("Random coin value : Taais")
+//  }
+
+
+
+
+
+
+/*Question 6 */
+// document.write("................................Question 6........................"+"<br>"+"<br>")
+// var r = Math.random()*100
+// var rand=Math.round(r)
+// document.write("Random Number between 1 to 100 is : "+rand)
+
+
+
+
+
+
+/*Question 7 */
+// document.write("................................Question 7........................"+"<br>"+"<br>")
+// var w = prompt("Enter your weight ! (in kilograms)")
+// var p = parseInt(w)
+// document.write ("The weitht of the user is "+p+" kilograms")
 
 
 
@@ -263,6 +307,394 @@
 
 
 
+/*Question 8 */
+// document.write("................................Question 8........................"+"<br>"+"<br>")
+// var inp= prompt(" Enter a number between 1 to 10 !")
+// var r = Math.random()*10
+// var rand=Math.round(r)
+// document.write("Random number is : "+rand+"<br>")
+// if (inp === rand){
+//     document.write("You enter a correct number!")
+// }else{
+//     document.write("Try again !")
+// }
+
+
+
+
+
+// /*............................Assignemnt 31 - 34 ................*/
+// // /*Question 1 */
+// document.write("................................Question 1........................"+"<br>"+"<br>")
+// var datee= new Date;
+// document.write(datee)
+
+
+
+
+/*Question 2 */
+// document.write("................................Question 2........................"+"<br>"+"<br>")
+// var month;
+// switch (new Date().getDay()) {
+//   case 1:
+//     month = "January";
+//     break;
+//   case 2:
+//     month = "Fabuary";
+//     break;
+//   case 3:
+//     month = "March";
+//     break;
+//   case 4:
+//     month = "April";
+//     break;
+//   case 5:
+//     month = "May";
+//     break;
+//   case  6:
+//     month = "June";
+//   case 7:
+//     month = "Junly";
+//     break;
+//   case 8:
+//     month = "Autusg";
+//     break;
+//   case 9:
+//     month = "Septmber";
+//     break;
+//   case 10:
+//     month = "October";
+//     break;
+//   case 11:
+//     month = "November";
+//     break;
+//   case 12:
+//     month = "December";
+//     break;
+// }
+// document.write("Today current is : "+month)
+
+
+
+
+
+
+
+/*Question 3 */
+// document.write("................................Question 3........................"+"<br>"+"<br>")
+// var day;
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case  6:
+//     day = "Saturday";
+// }
+// document.write("Today is : "+day)
+
+
+
+
+
+
+
+
+
+
+/*Question 4 */
+// document.write("................................Question 4........................"+"<br>"+"<br>")
+// var day;
+// switch (new Date().getDay()) {
+//   case 0:
+//     day = "Sunday";
+//     break;
+//   case 1:
+//     day = "Monday";
+//     break;
+//   case 2:
+//     day = "Tuesday";
+//     break;
+//   case 3:
+//     day = "Wednesday";
+//     break;
+//   case 4:
+//     day = "Thursday";
+//     break;
+//   case 5:
+//     day = "Friday";
+//     break;
+//   case  6:
+//     day = "Saturday";
+// }
+// document.write("Today is : "+day+"<br>")
+
+// if(day==="Saturday"||day==="Sunday"){
+//     document.write("It's fun day !")
+// }
+
+
+
+
+
+
+// // /*Question 5 */
+// document.write("................................Question 5........................"+"<br>"+"<br>")
+// var datee= new Date;
+// var dd= datee.getUTCDate()
+// if (dd<16){
+//     document.write("First fifteen days")
+// }else{
+//     document.write("Last days of the month")
+// }
+
+
+
+
+
+
+
+
+
+
+// /*Question 6 */
+// document.write("................................Question 6 ........................"+"<br>"+"<br>")
+// var date= new Date;
+// var d = date
+// var ds= date.getMilliseconds()
+// var dmm = date.getMinutes()
+//     document.write("Current date : "+d+"<br>")
+//     document.write("Elaps millisecond since january 1 , 1970 "+ds+"<br>")
+//     document.write("Elaps minutes since january 1 , 1970 "+dmm+"<br>")
+
+
+
+
+
+
+
+
+
+// /*Question 7 */
+// document.write("................................Question 7........................"+"<br>"+"<br>")
+// var date= new Date;
+// var dd= date.toString()
+// var tim= dd.slice(15,34)
+// document.write("Current time is : "+tim+"<br>")
+// var a = dd.slice(15,18)
+// if (a<12){
+//     document.write("It's PM")
+// }else{
+//     document.write("It's AM")
+// }
+
+
+
+
+
+
+
+
+
+// /*Question 8 */
+// document.write("................................Question 8........................"+"<br>"+"<br>")
+// var date= new Date("dec 31,2020");
+// var a = date.getUTCDate()
+// document.write(a)
+
+
+
+
+
+
+
+// /*Question 9 */
+// document.write("................................Question 9........................"+"<br>"+"<br>")
+// var date= new Date("Apr 25,2015");
+// var datemili = date.getTime()
+// var tody = new Date()
+// var todymili = tody.getTime()
+// var diff = todymili - datemili
+// var coifday= diff/(1000*60*60*24)
+// var r = Math.floor(coifday)
+// document.write(r+" days have passed since 1 Ramazan 2015")
+
+
+
+
+/*Question 10 */
+// document.write("................................Question 10........................"+"<br>"+"<br>")
+// var date= new Date("jan 1,2015");
+// var datemili = date.getTime()
+// var tody = new Date("dec 05, 2015")
+// var todymili = tody.getTime()
+// var diff = todymili - datemili
+// var coifday= diff/(1000*60)
+// document.write(coifday+" seconds has been passed since beginning of 2015 ")
+
+
+
+
+
+
+/*Question 13 */
+// document.write("................................Question 13........................"+"<br>"+"<br>")
+// var date= new Date("nov 16,1998");
+// var datemili = date.getTime()
+// var tody = new Date()
+// var todymili = tody.getTime()
+// var diff = todymili - datemili
+// var coifday= diff/(1000*60*60*24*30*12 )
+// var r = Math.floor(coifday)
+// document.write(" Your age is : "+r)
+
+
+
+
+
+
+
+/*Question 14 */
+// document.write("................................Question 14........................"+"<br>")
+// document.write("................................ K-Electric bill ........................"+"<br>"+"<br>")
+// var a = prompt("Enter the costumer name !")
+// var month;
+// switch (new Date().getDay()) {
+//   case 1:
+//     month = "January";
+//     break;
+//   case 2:
+//     month = "Fabuary";
+//     break;
+//   case 3:
+//     month = "March";
+//     break;
+//   case 4:
+//     month = "April";
+//     break;
+//   case 5:
+//     month = "May";
+//     break;
+//   case  6:
+//     month = "June";
+//   case 7:
+//     month = "Junly";
+//     break;
+//   case 8:
+//     month = "Autusg";
+//     break;
+//   case 9:
+//     month = "Septmber";
+//     break;
+//   case 10:
+//     month = "October";
+//     break;
+//   case 11:
+//     month = "November";
+//     break;
+//   case 12:
+//     month = "December";
+//     break;
+// }
+// var b = prompt("Enter Number of unit !")
+// var c= 16 //charges per unit
+// var net = b*c
+// var gros = net+350
+// document.write("<br>"+"Costumer Name : "+a+"<br>")
+// document.write("Month :"+month+"<br>")
+// document.write("Number of Unit "+b+"<br>")
+// document.write("Chargers per unit 16"+"<br>")
+// document.write("Net Amount Payable (within Due Date) : "+net+"<br>")
+// document.write("Late Payment Surcharge : 350"+"<br>")
+// document.write("Gross Amount Payable (after Due Date) : "+gros+"<br>")
+
+
+
+
+
+
+
+// /*............................Assignemnt 31 - 34 ................*/
+// // /*Question 1 */
+// function date(){
+// document.write("................................Question 1........................"+"<br>"+"<br>")
+// var datee= new Date;
+// document.write(datee)
+// }
+// document.write(date())
+
+
+
+
+
+
+// // /*Question 2 */
+// function greet(){
+//     document.write("................................Question 2........................"+"<br>"+"<br>")
+//     var a = prompt( "Enter your first name !")
+//     var b = prompt( "Enter your seccond name !")
+//     var fullNmae = a +" "+b
+//     document.write("Hellow ! "+fullNmae)
+// }
+// document.write(greet());
+
+
+
+
+
+ /*Question 3 */
+// function sum(a,b){
+//     document.write("................................Question 3........................"+"<br>"+"<br>")
+//     return (a+b)
+// }
+// var a= prompt("enter the first num !")
+// var b= prompt("enter the second num !")
+// document.write(sum(a,b))
+
+
+
+
+
+
+
+
+ /*Question 4 */
+function cal(a,b){
+    document.write("................................Question 4........................"+"<br>"+"<br>")
+    var ope=0
+    switch (new Date().getDay()) {
+  case "+":
+   ope= a+b
+    break;
+  case "-":
+    ope=a-b
+    break;
+  case "*":
+        ope= a*b
+    break;
+  case "/":
+         ope=a/b
+    break;
+         
+    return ope
+}
+var a= prompt("enter the first num !")
+var b= prompt("enter the second num !")
+document.write(sum(a,b))
 
 
 
