@@ -1,10 +1,12 @@
-// /*............................Assignemnt 21 - 25 ................*/
+// /*............................Assignemnt 21 - 25 ..........................*/
 // // /*Question 1 */
 // document.write("................................Question 1........................"+"<br>"+"<br>")
 // var a = prompt( "Enter your first name !")
 // var b = prompt( "Enter your seccond name !")
 // var fullNmae = a +" "+b
 // document.write("Hellow ! "+fullNmae)
+
+
 
 
 
@@ -20,12 +22,19 @@
 
 
 
+
+
+
+
 // /*Question  3*/
 // document.write("................................Question 3........................"+"<br>"+"<br>")
 // var p = "pakistani"
 // var inde = p.indexOf("n")
 // document.write("String : Pakistani"+"<br>")
 // document.write("Index of 'n' : "+inde)
+
+
+
 
 
 
@@ -39,12 +48,17 @@
 
 
 
+
+
+
+
 // /*Question  5*/
 // document.write("................................Question 5........................"+"<br>"+"<br>")
 // var p = "pakistani"
 // var inde = p[3]
 // document.write("String : Pakistani"+"<br>")
 // document.write("character at Index : "+inde)
+
 
 
 
@@ -61,12 +75,18 @@
 
 
 
+
+
+
 /*Question  7*/
 // document.write("................................Question 7........................"+"<br>"+"<br>")
 // var p = "Hyderbad"
 // var repl= p.replace("hyder","Islama")
 // document.write("City : "+p+"<br>")
 // document.write("After replacement : "+repl)
+
+
+
 
 
 
@@ -78,12 +98,16 @@
 // document.write(repl)
 
 
+
+
+
 /*Question  9*/
 // document.write("................................Question 9........................"+"<br>"+"<br>")
 // var s = 472
 // var conv = s.toString()
 // document.write ("Value : "+s+"<br>" )
 // document.write("Type : "+typeof conv)
+
 
 
 
@@ -98,12 +122,16 @@
 
 
 
+
+
 /*Question  11*/
 // document.write("................................Question 11........................"+"<br>"+"<br>")
 // var c = prompt("Enter the input to convert in title letter !")
 // var conv = c.charAt(0).toUpperCase() + c.substr(1).toLowerCase();
 // document.write ("User input : "+c+"<br>" )
 // document.write("Upper case : "+ conv)
+
+
 
 
 
@@ -152,7 +180,6 @@
 // var s = prompt("Enter to search !")
 // var text = "";
 // var i;
-
 // for (i = 0; i < a.length; i++) {
 // text=a[i]
 // if (s===text){
@@ -188,6 +215,9 @@
 // var user = "pakistan"
 // var i = user.length-1
 // document.write(user[i])
+
+
+
 
 
 /*Question  18*/
@@ -323,7 +353,7 @@
 
 
 
-// /*............................Assignemnt 31 - 34 ................*/
+// /*............................Assignemnt 31 - 34 ..........................*/
 // // /*Question 1 */
 // document.write("................................Question 1........................"+"<br>"+"<br>")
 // var datee= new Date;
@@ -628,12 +658,12 @@
 
 
 
-// /*............................Assignemnt 31 - 34 ................*/
+// /*............................Assignemnt 31 - 34 ............................*/
 // // /*Question 1 */
 // function date(){
-// document.write("................................Question 1........................"+"<br>"+"<br>")
-// var datee= new Date;
-// document.write(datee)
+//  document.write("................................Question 1........................"+"<br>"+"<br>")
+//  var datee= new Date;
+//  document.write(datee)
 // }
 // document.write(date())
 
@@ -673,33 +703,152 @@
 
 
  /*Question 4 */
-function cal(a,b){
-    document.write("................................Question 4........................"+"<br>"+"<br>")
-    var ope=0
-    switch (new Date().getDay()) {
-  case "+":
-   ope= a+b
-    break;
-  case "-":
-    ope=a-b
-    break;
-  case "*":
-        ope= a*b
-    break;
-  case "/":
-         ope=a/b
-    break;
-         
-    return ope
-}
-var a= prompt("enter the first num !")
-var b= prompt("enter the second num !")
-document.write(sum(a,b))
+// function cal(n1,n2,op){
+// document.write("................................Question 4........................"+"<br>"+"<br>")
+//   if (op=="+") {
+//     var sum=n1+n2
+//     document.write("Result : "+sum+"<br>")    
+// }
+//   if (op=="-") {
+//     var sum=n1-n2
+//     document.write("Result : "+sum+"<br>")    
+// }
+//   if (op=="*") {
+//     var sum=n1*n2
+//     document.write("Result : "+sum+"<br>")    
+// }
+//   if (op=="/") {
+//     var sum=n1/n2
+//     document.write("Result : "+sum+"<br>")    
+// }
+//  }
+// var n1= prompt("Enter the first number !")
+// var n2 = prompt("Enter your second nmber !")
+// var op = prompt("Enter your OPERATOR !")
+// document.write(cal(n1,n2,op))
 
 
 
 
 
+
+
+ /*Question 5 */
+// function square(a){
+//     document.write("................................Question 5........................"+"<br>"+"<br>")
+//     var s = a*a
+//     return s
+// }
+// var a= prompt("enter the first num !")
+// document.write("Square of the number is : "+square(a))
+
+
+
+
+
+ /*Question 6 */
+// function fac(a){
+//   document.write("................................Question 6........................"+"<br>"+"<br>")
+//   var fact = 1
+//   for(var i=1; i<=a; i++){
+//   fact= fact*i;
+//   }
+//   return (fact)
+// }
+// var a= prompt("enter the first num !")
+// document.write("Factorial of the number is : "+fac(a))
+
+
+
+
+
+
+
+ /*Question 7 */
+// function print(a,b){
+//     document.write("................................Question 7........................"+"<br>"+"<br>")
+//     for (var i=a; i <= b; i++) {
+//       document.write(i+"<br>")
+//      }        
+// }
+// var a= prompt("enter the first num !")
+// var b= prompt("enter the last num !")
+// document.write(print(a,b))
+
+
+
+
+
+ /*Question 8 */
+// function square(a){
+//     var s = a*a
+//     return s
+// }
+// function hyp(a,b){
+//   document.write("................................Question 8........................"+"<br>"+"<br>")
+//   var hypo = square(a) + square(b)
+//   return hypo
+// }
+// var a= prompt("enter the first num !")
+// var b= prompt("enter the first num !")
+// document.write(" hypotenuse of a right angle triangle : "+hyp(a,b))
+
+
+
+
+
+ /*Question 9 */
+// function area(a,b=6){
+// document.write("................................Question 9........................"+"<br>"+"<br>")
+//   var are =  a*b 
+//   return are
+// }
+// var b= prompt("enter the first num !")
+// document.write(" Area of a rectangle : "+area(b))
+
+
+
+
+
+
+
+ /*Question 14 */
+// function CircumferenceOfCircle(a){
+// document.write("................................Question 14........................"+"<br>"+"<br>")
+//   var cir =  (2*3.142*a)
+//   return cir
+// }
+// var b= prompt("enter the radius !")
+// document.write(" Area of a rectangle : "+CircumferenceOfCircle(b))
+
+
+// function AreaferenceOfCircle(a){
+//   document.write("................................Question 14........................"+"<br>"+"<br>")
+//     var are =  3.142*(a*a)
+//     var sqe =Math.sqrt(are)
+//     return sqe
+//   }
+//   var c= prompt("enter the radius !")
+//   document.write(" Area of a rectangle : "+AreaferenceOfCircle(c))
+  
+
+
+
+
+
+
+function LongestWord(str) {
+    var strSplit = str.split(' ');
+    var longestWord = 0
+    for(var i = 0; i < strSplit.length; i++){
+        if(strSplit[i].length > longestWord){ 
+        longestWord = strSplit[i].length; 
+         }
+    return longestWord;
+
+        }
+    }
+document.write(LongestWord("Web Development Tutorial"))
 
 
 
